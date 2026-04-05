@@ -45,69 +45,63 @@ AWS CLI Access
 
 ## Implementation Steps (With Screenshots)
 
-### 1. Create S3 Bucket
+### 1. Create IAM Policy (GetObject)
 
-![Create Bucket](./screenshots/01-create-bucket.png)
-
----
-
-### 2. Upload Object
-
-![Upload Object](./screenshots/02-upload-object.png)
+![Policy Visual](screenshots/Picture40.png)
 
 ---
 
-### 3. Create IAM Policy
+### 2. Define Policy JSON
 
-![Create Policy](./screenshots/03-create-policy.png)
-
----
-
-### 4. Configure Policy (GetObject Only)
-
-![Policy Config](./screenshots/04-policy-config.png)
+![Policy JSON](screenshots/Picture38.png)
 
 ---
 
-### 5. Review & Create Policy
+### 3. Attach Policy to IAM User
 
-![Policy Review](./screenshots/05-policy-review.png)
-
----
-
-### 6. Create IAM User
-
-![Create User](./screenshots/06-create-user.png)
+![Attach Policy](screenshots/Picture31.png)
 
 ---
 
-### 7. Generate Access Keys
+### 4. Verify User Creation
 
-![Access Keys](./screenshots/07-access-keys.png)
-
----
-
-### 8. Configure AWS CLI
-
-![AWS Configure](./screenshots/08-aws-configure.png)
+![User Created](screenshots/Picture32.png)
 
 ---
 
-### 9. Attempt to List Buckets (Expected Failure)
+### 5. Generate Access Keys
 
-![List Buckets Fail](./screenshots/09-list-buckets-fail.png)
-
----
-
-### 10. Attempt to List Objects (Expected Failure)
-
-![List Objects Fail](./screenshots/10-list-objects-fail.png)
+![Access Key CLI](screenshots/Picture33.png)
 
 ---
 
-### 11. Successfully Download Object
+### 6. Retrieve Access Keys
 
-![Copy Object](./screenshots/11-copy-object-success.png)
+![Access Keys](screenshots/Picture34.png)
+
+---
+
+### 7. Review IAM User Details
+
+![User Summary](screenshots/Picture35.png)
+
+---
+
+### 8. Verify Bucket and CLI Interaction
+
+![Bucket CLI](screenshots/Picture36.png)
+
+---
+
+### 9. Access S3 via CLI (Initial Attempt)
+
+![Access Denied](screenshots/Picture37.png)
+
+---
+
+### 10. Test Permissions (Failure + Success)
+
+![CLI Results](screenshots/Picture39.png)
 
 ---
 
