@@ -1,6 +1,6 @@
 # AWS IAM Policy for S3 Access Control
 
-> A hands-on lab demonstrating how to enforce least-privilege access to Amazon S3 using IAM policies and validate permissions using AWS CLI.
+> A hands-on demonstratinon on how to enforce least-privilege access to Amazon S3 using IAM policies and validate permissions using AWS CLI.
 
 ---
 
