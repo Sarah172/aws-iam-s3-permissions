@@ -8,7 +8,7 @@
 
 This project focuses on implementing **fine-grained access control** for Amazon S3 using IAM.
 
-You will:
+Steps as follows:
 
 - Create an S3 bucket  
 - Upload an object  
